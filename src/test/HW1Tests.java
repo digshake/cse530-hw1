@@ -286,6 +286,7 @@ public class HW1Tests {
 		t.setId(0);
 		t.setPid(0);
 		hf.deleteTuple(t);
+		
 
 		assertTrue("HeapFile unable to remove tuple", hf.getAllTuples().size() == 0);
 
